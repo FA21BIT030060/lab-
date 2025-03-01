@@ -1,10 +1,10 @@
 from flask import Flask
 
-app = Flask(_name_)
+app = Flask(_name_)  # Corrected version
 
-@app.route('/')
+@app.route("/")
 def home():
-    return "Hello, my name is Mubeen and this is my app!"
+    return "hello,MY name is Abdul Rafay, my name is Sharoon ali "
 
-if _name_ == '_main_':
-    app.run(debug=True)
+if _name_ == "_main_":
+    app.run()
